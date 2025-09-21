@@ -1,5 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import {Link} from "react-router-dom"
 
 function Home() {
   return (
@@ -14,16 +15,25 @@ function Home() {
            crafting elegant, modern, and responsive web experiences.
         </p>
         <div className="flex gap-4 justify-center mb-6">
-           <button  className="px-6 py-3 rounded-full bg-pink-500 text-black font-medium hover:bg-pink-400 transition duration-300 shadow-lg"> View Projects</button>
-           <button  className="px-6 py-3 rounded-full bg-pink-500 text-black font-medium hover:bg-pink-400 transition duration-300 shadow-lg"> Contact me</button>
+           <a href= "public\RADHIKA PARIHAR .pdf" target="_blank" rel="noopener noreferrer"className="px-6 py-3 rounded-full bg-pink-500 text-black font-medium hover:bg-pink-400 transition duration-300 shadow-lg">
+            Resume
+            </a>
+           <Link className="px-6 py-3 rounded-full bg-pink-500 text-black font-medium hover:bg-pink-400 transition duration-300 shadow-lg" to ="/Skill"> Skills</Link>
        </div>
         <div className="flex justify-center gap-6 text-white text-xl">
+
+
+
           <a href="https://github.com/" target="_blank"  className="hover:text-pink-400 transition">
             <FaGithub />
           </a>
-          <a href="https://linkedin.com/" target="_blank" className="hover:text-purple-400 transition">
+        
+             <a href ="https:www.linkedin.com/in/radhika-parihar1720040567" target="_blank"  className="hover:text-purple-400 transition" >
             <FaLinkedin />
           </a>
+
+
+
         </div>
       </div>
     </div>

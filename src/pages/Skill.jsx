@@ -9,7 +9,7 @@ function Skill() {
   ];
 
   return (
-    <div className="bg-black min-h-screen w-screen p-3">
+    <div  className="bg-black min-h-screen w-screen p-3">
       <div className="max-w-8xl mx-auto">
         <h1 className="text-3xl text-pink-400 font-bold mb-6 pl-5">Skills</h1>
 

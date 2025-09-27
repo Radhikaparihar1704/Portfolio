@@ -5,7 +5,7 @@ import Typewriter from "typewriter-effect";
 
 function Home() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-radial-[at_50%_75%] from-black via-black to-cyan-900 to-90% text-white px-6 font-sans relative overflow-hidden">
+    <div id="home" className="min-h-screen flex flex-col items-center justify-center bg-radial-[at_50%_75%] from-black via-black to-cyan-900 to-90% text-white px-6 font-sans relative overflow-hidden">
       <div className="absolute top-0 left-1/2 w-[600px] h-[600px] "></div>
       <div className="text-center max-w-2xl z-10">
         <h1 className="text-4xl md:text-6xl font-extrabold mb-4 tracking-tight font-serif">

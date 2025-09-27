@@ -7,7 +7,7 @@ function Project(){
     ];
     return (
    <>
-   <div  id = "project"className=' w-screen h-screen  flex gap-5 bg-black'>
+   <div  id ="project" className=' w-screen h-screen  flex gap-5  bg-radial-[at_20%_40%] from-black via-black to-cyan-900 to-90% text-white px-6 font-sans relative overflow-hidden'>
     {data.map((item,index)=>
       <Projectcard {...item}/>
     )}
